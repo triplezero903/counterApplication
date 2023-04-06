@@ -10,7 +10,7 @@ import { useEffect, useState } from 'react'
 
 const Home: NextPage = () => {
   const myAddress = useAddress()
-  const contractAddress = '0xe95CE43665c4d4FeE5354168D69F506aD5c5141e'
+  const contractAddress = '0x9A2E4D6659622171Dda4bf92bb587AC5b230bAb1'
   const { contract, isLoading } = useContract(contractAddress)
 
   const [counter, setCounter] = useState<string | undefined>(undefined)
