@@ -29,9 +29,9 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
-        <ConnectWallet />
         <div className={styles.title}>
-          <h3>손경현의 카운터 앱</h3>
+          <h5>Welcome!</h5>
+          <h3>손경현의 카운터 앱 입니다.</h3>
         </div>
 
         <div className={styles.description}>
